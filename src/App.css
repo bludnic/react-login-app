@@ -1,33 +1,57 @@
-.App {
+/** App & Layout **/
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.content {
+  padding: 16px;
+}
+
+/** LoginCard & SignupCard **/
+.sign-card {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.sign-card__title {
+  font-size: 18px;
+}
+
+.sign-card__bottom-area {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.sign-card__bottom-title {
+  margin-bottom: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/** HomeCard **/
+.home-card {
+  max-width: 350px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.home-card__title {
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-card__email {
+  font-size: 14px;
+  color: deepskyblue;
+}
+
+.home-card__button {
+  margin-top: 16px;
 }
