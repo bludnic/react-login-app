@@ -1,0 +1,23 @@
+{
+  "Already registered?": "Уже зарегистрированы?",
+  "Are you here for the first time?": "Вы здесь в первый раз?",
+  "Confirm password": "Подтвердить пароль",
+  "E-mail": "E-mail",
+  "en": "англ.",
+  "Enter your e-mail": "Введите ваш e-mail",
+  "Enter your name": "Введите ваше имя",
+  "Enter your password": "Введите ваш пароль",
+  "Home": "Главная",
+  "Howdy": "Привет",
+  "Invalid E-mail address": "Неверный E-mail",
+  "Log In": "Войти",
+  "Password can't be less than 6 characters": "Пароль не может быть менее 6 символов",
+  "Password": "Пароль",
+  "Passwords do not match": "Пароли не совпадают",
+  "Please enter your name": "Пожалуйста введите имя",
+  "Please input your E-mail": "Пожалуйста введите E-mail",
+  "Please input your password": "Пожалуйста введите пароль",
+  "ru": "рус.",
+  "Sign Out": "Выйти",
+  "Sign Up": "Зарегестрироваться"
+}
